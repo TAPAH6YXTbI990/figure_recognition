@@ -75,7 +75,7 @@ int main()
         putText(contourOutput, shape, center, FONT_HERSHEY_SIMPLEX, 0.5, Scalar(255, 0, 0), 2);
     }
     
-    // imshow("Исходное изображение", img);
+    // imshow("Original", img);
     // imshow("Edges (threshold)", binary);
     imshow("Contours", contourOutput);
     waitKey(0);
